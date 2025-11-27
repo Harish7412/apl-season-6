@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aanjana Premier League 6 SAMDARI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Bar (Religious Invocations) -->
+  <div class="top-bar">
+    <span>|| श्री राजेश्वर भगवान नमः ||</span>
+    <span>|| श्री गणेशाय नमः ||</span>
+    <span>|| श्री रामदेवाय नमः ||</span>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-main">APL 6</span>
+        <span class="logo-sub">SAMDARI</span>
+      </div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#teams">Teams</a>
+        <a href="#matches">Matches</a>
+        <a href="#details">Details</a>
+        <a href="#rules">Rules</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-deity left">
+      <img src="assets/deity1.png" alt="Rajeshwar Bhagwan">
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>SEASON 6 <br><span class="hindi-title">आँजणा प्रीमियर लीग</span></h1>
+        <p class="hindi-subtitle">
+          श्री राजेश्वर भगवान की असीम कृपा से यह टूर्नामेंट
+        </p>
+        <p>तहसील समदड़ी | दिनांक :- 29/12/2025 से 04/01/2026 तक</p>
+        <div class="hero-actions">
+          <a href="#teams" class="btn primary">View Teams</a>
+          <a href="#stats" class="btn outline">Points Table</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-deity right">
+      <img src="assets/deity2.png" alt="Rajeshwar Bhagwan">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container section-content">
+      <div class="about-card">
+        <h2>About APL 6 (परिचय)</h2>
+        <p class="about-text">
+          इस टूर्नामेंट में समदड़ी तहसील और आस-पास की 32 टीमें भाग लेती हैं। इसका मुख्य उद्देश्य सभी आंजना भाइयों का
+          स्नेह मिलन और प्रतिभाशाली खिलाड़ियों को मंच प्रदान करना है।
+        </p>
+        <p class="about-highlight">
+          "समाज की एकता और खेल भावना का प्रतीक"
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teams Section -->
+  <section id="teams" class="section">
+    <div class="container section-content">
+      <h2 class="center">Participating Teams (भाग लेने वाली टीमें)</h2>
+      <p class="center section-intro">32 teams competing in APL Season 6</p>
+
+      <div class="teams-by-group">
+        <!-- Group A Teams -->
+        <div class="team-group">
+          <h3 class="team-group-title group-a">Group A</h3>
+          <ul class="team-list">
+            <li>अरणेश्वर क्रिकेट क्लब समदड़ी</li>
+            <li>आँजणा नवयुवक मंडल मजल</li>
+            <li>राजेश्वर युवा अजीत</li>
+            <li>राजेश्वर ११ स्टार भलरो का बाड़ा</li>
+            <li>राजेश्वर रॉयल्स राखी</li>
+            <li>आँजणा रॉयल छियाली</li>
+            <li>संतोष भारती क्लब लाखेटा</li>
+            <li>कलबी किंग छियाली</li>
+          </ul>
+        </div>
+
+        <!-- Group B Teams -->
+        <div class="team-group">
+          <h3 class="team-group-title group-b">Group B</h3>
+          <ul class="team-list">
+            <li>कलबी किंग गिराद का ढाणा</li>
+            <li>कलबी किंग बामसीन</li>
+            <li>राजेश्वर ११ स्टार रनियादेशीपुरा</li>
+            <li>रामदेव क्लब गोलियांचौधरियान</li>
+            <li>आँजणा ११ स्टार राखी</li>
+            <li>आँजणा ११ स्टार पातोंकाबाड़ा</li>
+            <li>राजेश्वर यूनाइटेड सेवाली</li>
+            <li>पटेल स्टार करमावास</li>
+          </ul>
+        </div>
+
+        <!-- Group C Teams -->
+        <div class="team-group">
+          <h3 class="team-group-title group-c">Group C</h3>
+          <ul class="team-list">
+            <li>राजेश्वर सुपर जॉइंट्स कम्मोंकाबाड़ा</li>
+            <li>राजेश्वर रॉयल ढीढस</li>
+            <li>युवा पटेल स्टार करमावास</li>
+            <li>आंजणा फाइटर्स खुटाणी</li>
+            <li>राजेश्वर क्लब गोलियांचौधरियान</li>
+            <li>आँजणा क्रिकेट क्लब मोखंडी</li>
+            <li>राजेश्वर ११ स्टार रानीदेशीपुरा</li>
+            <li>राजेश्वर किंग ११ मोतीसरा</li>
+          </ul>
+        </div>
+
+        <!-- Group D Teams -->
+        <div class="team-group">
+          <h3 class="team-group-title group-d">Group D</h3>
+          <ul class="team-list">
+            <li>जोगेश्वर भारती क्लब खरंटिया</li>
+            <li>मामाजी ११ स्टार रानीदेशीपुरा</li>
+            <li>राजेश्वर रॉयल्स समदड़ी</li>
+            <li>राजेश्वर रॉयल भलरो का बाड़ा</li>
+            <li>राजेश्वर रॉयल्स सरवड़ी</li>
+            <li>राजेश्वर रॉयल्स मजल</li>
+            <li>संत श्री सूजाराम टाइटंस सामूजा</li>
+            <li>राजेश्वर वॉरियर्स सरवड़ी</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Matches Schedule Section -->
+  <section id="matches" class="section matches-section">
+    <div class="container section-content">
+      <h2 class="center">Matches Schedule (मैच कार्यक्रम)</h2>
+      <p class="center section-intro">
+        Group-wise match fixtures for APL Season 6
+      </p>
+
+      <!-- Group A -->
+      <div class="group-container">
+        <h3 class="group-header group-a">Group A</h3>
+        <div class="matches-grid">
+          <div class="match-card">
+            <div class="team">अरणेश्वर क्रिकेट क्लब समदड़ी</div>
+            <div class="vs">VS</div>
+            <div class="team">कलबी किंग छियाली</div>
+          </div>
+          <div class="match-card">
+            <div class="team">आँजणा नवयुवक मंडल मजल</div>
+            <div class="vs">VS</div>
+            <div class="team">संतोष भारती क्लब लाखेटा</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर युवा अजीत</div>
+            <div class="vs">VS</div>
+            <div class="team">आँजणा रॉयल छियाली</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर ११ स्टार भलरो का बाड़ा</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर रॉयल्स राखी</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Group B -->
+      <div class="group-container">
+        <h3 class="group-header group-b">Group B</h3>
+        <div class="matches-grid">
+          <div class="match-card">
+            <div class="team">कलबी किंग गिराद का ढाणा</div>
+            <div class="vs">VS</div>
+            <div class="team">पटेल स्टार करमावास</div>
+          </div>
+          <div class="match-card">
+            <div class="team">कलबी किंग बामसीन</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर यूनाइटेड सेवाली</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर ११ स्टार रनियादेशीपुरा</div>
+            <div class="vs">VS</div>
+            <div class="team">आँजणा ११ स्टार पातोंकाबाड़ा</div>
+          </div>
+          <div class="match-card">
+            <div class="team">रामदेव क्लब गोलियांचौधरियान</div>
+            <div class="vs">VS</div>
+            <div class="team">आँजणा ११ स्टार राखी</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Group C -->
+      <div class="group-container">
+        <h3 class="group-header group-c">Group C</h3>
+        <div class="matches-grid">
+          <div class="match-card">
+            <div class="team">राजेश्वर सुपर जॉइंट्स कम्मोंकाबाड़ा</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर किंग ११ मोतीसरा</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर रॉयल ढीढस</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर ११ स्टार रानीदेशीपुरा</div>
+          </div>
+          <div class="match-card">
+            <div class="team">युवा पटेल स्टार करमावास</div>
+            <div class="vs">VS</div>
+            <div class="team">आँजणा क्रिकेट क्लब मोखंडी</div>
+          </div>
+          <div class="match-card">
+            <div class="team">आंजणा फाइटर्स खुटाणी</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर क्लब गोलियांचौधरियान</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Group D -->
+      <div class="group-container">
+        <h3 class="group-header group-d">Group D</h3>
+        <div class="matches-grid">
+          <div class="match-card">
+            <div class="team">जोगेश्वर भारती क्लब खरंटिया</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर वॉरियर्स सरवड़ी</div>
+          </div>
+          <div class="match-card">
+            <div class="team">मामाजी ११ स्टार रानीदेशीपुरा</div>
+            <div class="vs">VS</div>
+            <div class="team">संत श्री सूजाराम टाइटंस सामूजा</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर रॉयल्स समदड़ी</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर रॉयल्स मजल</div>
+          </div>
+          <div class="match-card">
+            <div class="team">राजेश्वर रॉयल भलरो का बाड़ा</div>
+            <div class="vs">VS</div>
+            <div class="team">राजेश्वर रॉयल्स सरवड़ी</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tournament Details Section -->
+  <section id="details" class="section">
+    <div class="container section-content">
+      <h2 class="center">Tournament Details (विवरण)</h2>
+
+      <!-- Prizes -->
+      <div class="prizes-container">
+        <div class="prize-card winner">
+          <h3>विजेता (Winner)</h3>
+          <p class="prize-amount">₹ 51,151</p>
+        </div>
+        <div class="prize-card runner">
+          <h3>उपविजेता (Runner-up)</h3>
+          <p class="prize-amount">₹ 21,121</p>
+        </div>
+        <div class="prize-card third">
+          <h3>तीसरा स्थान</h3>
+          <p class="prize-amount">₹ 11,111</p>
+        </div>
+        <div class="prize-card fourth">
+          <h3>चौथा स्थान</h3>
+          <p class="prize-amount">₹ 5,151</p>
+        </div>
+      </div>
+
+      <div class="special-prizes center">
+        <p>सर्वश्रेष्ठ बल्लेबाज, सर्वश्रेष्ठ गेंदबाज, एवं सर्वश्रेष्ठ क्षेत्ररक्षक को विशेष पुरस्कार से सम्मानित किया
+          जाएगा</p>
+      </div>
+
+      <div class="location-box center">
+        <h3>स्थान (Location)</h3>
+        <p>राजकीय उच्च प्राथमिक संस्कृत विद्यालय श्री सवारामजी चौधरी बेरा के पास समदड़ी</p>
+      </div>
+
+      <!-- Poster Image -->
+      <div class="poster-container center" style="margin-top: 2rem;">
+        <h3>Official Poster</h3>
+        <img src="assets/poster.jpg" alt="APL Season 6 Poster"
+          style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+      </div>
+    </div>
+  </section>
+
+  <!-- Rules Section -->
+  <section id="rules" class="section section-alt">
+    <div class="container section-content">
+      <h2 class="center">नियम व व्यवस्थाएं (Rules)</h2>
+      <ul class="rules-list">
+        <li>1. सभी खिलाड़ी एक ही गांव के होने चाहिए।</li>
+        <li>2. सभी मैच 8-8 ओवर के होंगे।</li>
+        <li>3. दोनो पारियों मे नई गेंद का प्रयोग होगा।</li>
+        <li>4. मैदानी अंपायर द्वारा लिया गया निर्णय अंतिम व सर्वमान्य होगा।</li>
+        <li>5. पॉवर प्ले 2 ओवर का होगा।</li>
+        <li>6. सभी मैच ( निविया ) गेंद से खेले जाएंगे।</li>
+        <li>7. L.B.W के अलावा सभी अंतर्राष्ट्रीय नियम होगा।</li>
+        <li>8. जिस किसी भी टीम का मैच हो वह 40 मिनट पहले मैदान मे पहुँचे।</li>
+        <li>9. प्रत्येक मैच में सभी गेंदबाज 2-2 ओवर फेंक सकते है।</li>
+        <li>10. U-23 के 4 खिलाड़ी अंतिम एकादश में अनिवार्य है। (2002 valid)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container section-content two-column">
+      <div>
+        <h2>Contact Us</h2>
+        <p>
+          Have questions or need more information about Aanjana Premier League 6 Samdari? Send us
+          a message using the form.
+        </p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> example@apl06samdari.com</li>
+          <li><strong>Phone:</strong> +91-00000-00000</li>
+          <li><strong>Address:</strong> Samdari, Rajasthan, India</li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo" style="margin-bottom: 1rem;">
+        <span style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 900; color: #fff;">APL 6
+          SAMDARI</span>
+      </div>
+      <div class="footer-links" style="margin-bottom: 1.5rem;">
+        <a href="#home" style="color: #ccc; margin: 0 10px;">Home</a>
+        <a href="#teams" style="color: #ccc; margin: 0 10px;">Teams</a>
+        <a href="#stats" style="color: #ccc; margin: 0 10px;">Stats</a>
+        <a href="#contact" style="color: #ccc; margin: 0 10px;">Contact</a>
+      </div>
+      <div class="social-links" style="margin-bottom: 1.5rem;">
+        <!-- Dummy Social Icons -->
+        <span
+          style="display: inline-block; width: 30px; height: 30px; background: #3b5998; border-radius: 50%; margin: 0 5px; line-height: 30px; color: white;">f</span>
+        <span
+          style="display: inline-block; width: 30px; height: 30px; background: #1da1f2; border-radius: 50%; margin: 0 5px; line-height: 30px; color: white;">t</span>
+        <span
+          style="display: inline-block; width: 30px; height: 30px; background: #e1306c; border-radius: 50%; margin: 0 5px; line-height: 30px; color: white;">i</span>
+      </div>
+      <p>© <span id="year"></span> Aanjana Premier League 6 SAMDARI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
